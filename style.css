@@ -1,0 +1,33 @@
+.todo-add {
+  border: 1px solid blue;
+  padding: 25px;
+  margin: 20px 10px 50px;
+
+}
+
+.todo-delete-by-id {
+  border: 1px solid greenyellow;
+  padding: 25px;
+  margin: 0 10px 50px;
+
+}
+
+.todo-list {
+  border: 1px solid red;
+  min-height: 250px;
+  height: auto;
+  padding: 25px;
+  margin: 0 10px 100px;
+}
+
+.todo-delete-by-id input {
+  width: 230px;
+}
+
+#delete-box {
+  margin-right: 10px;
+}
+
+#input-box {
+  margin-right: 10px;
+}

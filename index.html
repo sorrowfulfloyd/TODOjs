@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO_or_not_TODO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="">
+  <main>
+
+    <div class="todo-add">
+      <input type="text" name="" id="input-box" placeholder="Add new...">
+      <button id="push-button" onclick="pushTODO()">Add it</button>
+      <button id="clear-button" onclick="clearTODO()">Clear it</button>
+    </div>
+
+    <div class="todo-delete-by-id">
+      <input type="text" name="" id="delete-box" placeholder="# of item you want to remove">
+      <button id="delete-button" onclick="deleteItemFromTODO()">Delete it</button>
+    </div>
+
+    <div class="todo-list">
+      <h1>TODO List</h1>
+      <ol id="todo">
+      </ol>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
