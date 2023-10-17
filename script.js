@@ -10,20 +10,11 @@ function saveIntoLocalStorage(arr = []) {
 }
 
 function pushTODO() {
-  // my stupid way(tm) to convert string to node to append it xd
   const itemToAdd = document.getElementById("input-box").value;
-  // const node = document.createElement("li");
-  // const itemText = document.createTextNode(itemToAdd);
-
-  // node.appendChild(itemText);
-  // todoList.appendChild(node);
-
   todoList.innerHTML += `<li>${itemToAdd}</li>`;
-
   itemArr.push(itemToAdd);
 
   saveIntoLocalStorage(itemArr);
-
 }
 
 function clearTODO() {
@@ -42,6 +33,7 @@ function deleteItemFromTODO() {
       break;
     }
   }
+
   saveIntoLocalStorage(itemArr);
 }
 
